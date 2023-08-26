@@ -4,41 +4,34 @@ public class ArraysTopic {
 
 	public static void main(String[] args) {
 		//Declaring array in three ways in java
+		
 		//Way-1 (Declaration then memory allocation)
-		
-		/*int [] marks;
+		int [] marks;
 		marks = new int[5];
-		
 		marks[0] = 90;
 		marks[1] = 80;
 		marks[2] = 70;
 		marks[3] = 60;
 		marks[4] = 50;
-		
 		//marks[5] = 90; ---> It throws error
-		
-		System.out.println(marks[2]);*/
+		System.out.println(marks[2]);
 		
 		//Way-2 (Declaration and memory allocation)
-		
-			/*	int [] marks = new int[5];
-			
-				marks[0] = 90;
-				marks[1] = 80;
-				marks[2] = 70;
-				marks[3] = 60;
-				marks[4] = 50;
-				
-				System.out.println(marks[2]);  */
+			int [] marks = new int[5];
+			marks[0] = 90;
+			marks[1] = 80;
+			marks[2] = 70;
+			marks[3] = 60;
+			marks[4] = 50;
+			System.out.println(marks[2]);  
 
-				//Way-3 (Declaration , memory allocation and initialization)
-				
-			/*int [] marks = {80,90,85,98,52,99};
+			//Way-3 (Declaration , memory allocation and initialization)
+			int [] marks = {80,90,85,98,52,99};
 			System.out.println("Elements in arrays are: ");
 			for (int i=0; i<marks.length; i++) {
 				System.out.println(marks.length);  ----> It returns length of the array
 				System.out.println(marks[i]);
-			} */
+			} 
 		//The above examples are integer arrays examples you can create other data type arrays also.(float,char,string)
 		
 		//Quick quiz (display array elements in reverse order)
